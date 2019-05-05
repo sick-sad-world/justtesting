@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Trendolizer",
+  "version": "1",
+  "background": {
+    "scripts": [
+      "vendor.js",
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "options_page": "settings.html",
+  "permissions": [
+    "tabs",
+    "storage",
+    "https://api.trendolizer.com"
+  ],
+  "content_security_policy": "connect-src https://api.trendolizer.com; script-src 'self' 'unsafe-eval' https://api.trendolizer.com"
+}

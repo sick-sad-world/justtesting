@@ -1,0 +1,9 @@
+.sass-cache
+node_modules
+.map
+.zip
+build
+dist
+.vscode
+npm-debug.log
+package-lock.json
